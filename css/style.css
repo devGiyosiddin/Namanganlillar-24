@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 *:focus{
-  outline: 2px dashed red;
+  outline: 2px dashed #2959cb;
   outline-offset: 2px;
 }
 html{
@@ -45,8 +45,6 @@ body{
 }
 
 /* SITE-HEADER */
-.site-header {
-}
 
 /* SITE-HEADER-TOP */
 .site-header-top {
@@ -74,6 +72,18 @@ body{
   opacity: 0.6;
 }
 .logo-img {
+}
+
+/* GLOBAL SEARCH FORM */
+.global-search-form-input{
+  padding-top: 15px;
+  padding-bottom: 13px;
+  padding-left: 40px;
+  padding-right: 20px;
+  border-radius: 60px;
+  border: 0;
+  font-size: 14px;
+  line-height: normal;
 }
 
 /* CURRENCY RATES */
