@@ -175,4 +175,142 @@ body{
 /* SITE-HEADER-BANNER */
 .site-header-banner-link{
   display: flex;
+  margin-bottom: 45px;
+}
+
+/* NEWS section-1 */
+.news {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.news-container{
+}
+.news-box {
+  display: inline-block;
+  width: 393px;
+  height: 382px;
+  border-radius: 15px;
+  background: #F6F6F6;
+  font-weight: 400;
+  line-height: 26px;
+  font-family: "Rubik","Arial",sans-serif;
+  padding: 15px 17px;
+  margin: 10px 2px;
+}
+.news-text-box{
+}
+.news-header-link {
+  text-decoration: none;
+  color:#000;
+}
+.news-boxes-header {
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: "Rubik","Arial",sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  padding-right: 15px;
+}
+.news-boxes-paragraph {
+  margin: 0;
+  padding: 0;
+  color:#4A4B4C;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+.news-img-link {
+  display: flex;
+}
+.news-box-img {
+  border-radius: 10px;
+  margin: 10px 0px;
+}
+.small-text{
+  /* width: 112px;
+  height: 20px; */
+  display: flex;
+  align-items: center;
+  color: #5E5F61;
+  font-size: 12px;
+  line-height: 14.23px;
+  font-family: "Rubik","Arial",sans-serif;
+  border-radius: 5px;
+}
+.small-text-bg{
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #be2828;
+  color: #fff;
+  border-radius: 3px;
+}
+
+/* BANNER 2 */
+.banner_2 {
+}
+.banner_2_link {
+  display: block;
+}
+.banner_2_img{
+  margin: 50px 70px;
+}
+.banner_2_img:hover{
+  opacity: 0.8;
+}
+.banner_2_img:active{
+  opacity: 0.6;
+}
+
+/* NEWS section-2 */
+.news_sec2_header {
+  color: #000;
+  font-family: "Rubik", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28.44px;
+}
+.second_box{
+  flex-direction: column;
+  width: 797px;
+  height: 205px;
+  background: #f6f6f6;
+  border-radius: 15px;
+}
+.news_sec2_img_link {
+  text-decoration: none;
+}
+.news_sec2_img {
+  display: inline-block;
+  border-radius: 10px;
+  margin: 20px; 
+}
+.news_sec2_text {
+  display: inline-block;
+  font-family: "Rubik", "Arial", sans-serif;
+  width: 535px;
+  height: 128px;
+}
+.news_sec2_text_header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000;
+  margin: 0;
+  padding-bottom: 10px;
+}
+.news_sec2_text_paragraph {
+  color: #4A4B4C;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0;
+}
+.small-text {
+}
+.small-text-bg {
 }
