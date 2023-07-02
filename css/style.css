@@ -269,10 +269,10 @@ body{
 
 /* NEWS section-2 */
 .news_sec2{
-  height: 950px;
+  height: 870px;
+  display: flex;
   flex-direction: column;
-  background: skyblue;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 .news_sec2_header {
   display: block;
@@ -286,7 +286,7 @@ body{
   display: inline-block;
   width: 797px;
   height: 205px;
-  margin: 10px;
+  margin: 5px 0px 5px 0px;
   border-radius: 15px;
   background: #f6f6f6;
 }
@@ -327,7 +327,7 @@ body{
 .large_box {
   flex-direction: column;
   flex-wrap: nowrap;
-  width: 330px;
+  width: 393px;
   height: 502px;
   margin: 10px;
   padding: 20px;
@@ -351,5 +351,107 @@ body{
 .large_box_p {
   font-size: 13px;
   line-height: 15.41px;
+}
+.news_sec2_banner_limk{
+}
+.news_sec2_banner {
+  border-radius:   15px;
+  margin-left: 10px;
+}
+.button_more{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 796px;
+  height: 53px;
+  background: #EAEAEA;
+  margin-bottom: 100px;
+}
+
+/* FOOTER */
+.site_footer{
+  /* width: 1519px; */
+  height: 358px;
+  background: #7297EF;
+  padding: 40px 220px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.site_footer_box {
+  display: flex;
+}
+.site-footer-logolink {
+  display: block;
+  text-decoration: none;
+}
+.site_footer_logo_header {
+  color: #fff;
+  font-family: "Rubik", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.44px;
+  margin-bottom: 15px;
+}
+.site_footer_warning {
+  width: 229px;
+  height: 95px;
+  color: #fff;
+  font-family: "Rubik", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  margin: 0px 203px 71px 0px;
+}
+.site_footer_info {
+  /* display: flex;
+  flex-wrap: wrap;
+  width: 491px;
+  height: 80px; */
+  color: #fff;
+}
+.site_footer_info:not(:last-child) {
+  margin-right: 100px;
+}
+.site_footer_info_list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.site_footer_info_item {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18.96px;
+  margin: 0px 0px 20px 0px;
+}
+.site_footer_divider{
   
+}
+.socials_header {
+  display: inline-block;
+  width: 161px;
+  height: 46px;
+  color: #fff;
+  font-family: "Rubik", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  
+}
+.socials {
+  display: flex;
+}
+.site_footer_socials_box{
+  display: flex;
+  justify-content: space-between;
+}
+.site_footer_socials {
+  list-style: none;
+  display: flex;
+}
+.socials_link {
+  /* display: block; */
+}
+.socials:not(:last-child) {
+  margin-right: 25px;
 }
