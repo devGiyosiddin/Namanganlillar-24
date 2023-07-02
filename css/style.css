@@ -425,7 +425,7 @@ body{
   margin: 0px 0px 20px 0px;
 }
 .site_footer_divider{
-  background: #CECECE;
+  color: #CECECE;
 }
 .socials_header {
   display: inline-block;
@@ -436,7 +436,6 @@ body{
   font-weight: 500;
   font-size: 18px;
   line-height: 23px;
-  
 }
 .socials {
   display: flex;
