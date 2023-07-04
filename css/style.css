@@ -571,23 +571,23 @@ body{
 
 
 /* PAGE-ARTICLE */
-.container{
-  width: 100%;
-  max-width: 1240px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .main-content-q{
   display: flex;
+  flex-grow: 1;
+  padding-top: 50;
+  justify-content: space-between;
   width: 797px;
   margin-top: 10px;
-  padding-top: 0;
   font-family: "Rubik", "Arial", sans-serif;
 }
+.article-text-box{
+  width: 797px
+}
 
+
+.article-main-content-container{
+  display:flex;
+}
 .article-title{
   display: block;
   color: #000;
