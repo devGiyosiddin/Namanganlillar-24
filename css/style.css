@@ -481,7 +481,7 @@ only screen and (                min-resolution: 2dppx) {
 
 /* FOOTER */
 .site_footer{
-  height: 358px;
+  height: auto;
   background-color: #7297EF;
 }
 .site_footer_main_box {
@@ -637,7 +637,7 @@ only screen and (                min-resolution: 2dppx) {
 
 /* MINI-CONTENT */
 .mini-content {
-  margin-bottom: 100px; q
+  margin-bottom: 100px;
 }
 
 .mini-content-heading {
