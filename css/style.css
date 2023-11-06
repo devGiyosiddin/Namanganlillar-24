@@ -823,6 +823,7 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 .modal-dialog {
+  position: relative;
   width: 100%;
   max-width: 850px;
   margin: 0 auto;
@@ -845,6 +846,23 @@ only screen and (                min-resolution: 2dppx) {
   font-weight: 500;
   line-height: 34px;
   margin-bottom: 25px;
+}
+
+.modal-close-button {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  opacity: 0.7;
+  top: 25px;
+  right: 40px;
+  border: 0;
+  border-radius: 15px;
+  background: url("../img/close.svg");
+  background-size: contain;
+}
+.modal-close-button:hover {
+  opacity: 1;
+  border: 2px solid #7296ec;
 }
 
 .modal-button {
