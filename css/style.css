@@ -413,12 +413,12 @@ body{
 }
 
 .layout-2-1-sidebar{
-  /* width: 393px; */
-  /* margin-top: 0px; */
+  width: 393px;
+  margin-top: 0px;
 }
-/* .layout-2-1-sidebar-item:not(:last-child){
+.layout-2-1-sidebar-item:not(:last-child){
   margin-bottom: 10px;
-} */
+}
 
 /* SIDEBAR-NEWS-CARD */
 .sidebar-news-card {
