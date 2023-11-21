@@ -8,3 +8,7 @@ elModalOpener.addEventListener('click', function() {
 elModalCloseButton.addEventListener('click', function() {
     elModal.classList.remove('modal-opener')
 });
+
+setTimeout(function () {
+    elModal.classList.add('modal-opener');
+}, 30000);
