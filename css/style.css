@@ -310,18 +310,6 @@ body{
   color: #000;
 }
 
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (     -o-min-device-pixel-ratio: 2/1),
-only screen and (        min-device-pixel-ratio: 2),
-only screen and (                min-resolution: 192dpi),
-only screen and (                min-resolution: 2dppx) { 
-  .notification-cta{
-    background-image: url("../img/bg_img_not@2x.jpg");
-  }
-}
-
 
 /* GLOBAL-NEWS */
 .global_news_heading {
@@ -341,6 +329,10 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 /* ARTICLE-CARD-HORIZONTAL */
+.article {
+  margin-right: 10px;
+}
+
 .article-card-horizontal {
   display: flex;
   align-items: flex-start;
@@ -628,6 +620,7 @@ only screen and (                min-resolution: 2dppx) {
 .article-main-content-container{
   display:flex;
 }
+
 .article-title{
   display: block;
   color: #000;
@@ -783,6 +776,13 @@ only screen and (                min-resolution: 2dppx) {
   background:  var(--accent-color);
   border: 0;
   margin-left: 551px;
+  cursor: pointer;
+}
+.contact-send-button:hover {
+  opacity: 0.8;
+}
+.contact-send-button:active {
+  opacity: 0.6;
 }
 
 /* CONTACT-INFO-BOX */
@@ -883,4 +883,16 @@ only screen and (                min-resolution: 2dppx) {
   color: #fff;
   transform: translateX(150%);
   background-color: #f78b3b;
+}
+
+/* RETINA */
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+  .notification-cta {
+    background-image: url("../img/bg_img_not@2x.jpg");
+  }
 }
