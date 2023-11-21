@@ -347,6 +347,7 @@ only screen and (                min-resolution: 2dppx) {
   border-radius: 15px;
   background-color: #f6f6f6;
   padding: 20px;
+  padding-left: 17px;
 }
 .article-card-horizontal-img {
   width: 210px;
