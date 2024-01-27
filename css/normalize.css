@@ -186,9 +186,9 @@ body {
 }
 
 .main-content-q,
-.site_footer_info_item,
-.site_footer_logo_header,
-.site_footer_warning,
+.site-footer_info_item,
+.site-footer_logo_header,
+.site-footer_warning,
 .socials_header,
 body {
   font-family: Rubik, Arial, sans-serif
@@ -564,7 +564,7 @@ only screen and (min-resolution:2dppx) {
   }
 }
 
-.global_news_heading {
+.global-news-heading {
   font-size: 24px;
   line-height: normal;
   font-weight: 500;
@@ -717,7 +717,7 @@ only screen and (min-resolution:2dppx) {
 .contact-info-flexbox,
 .mini-content-box,
 .sidebar-ad-link,
-.site_footer_box,
+.site-footer_box,
 .socials {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -737,32 +737,32 @@ only screen and (min-resolution:2dppx) {
   height: 553px
 }
 
-.site_footer {
+.site-footer {
   height: auto;
   background-color: var(--accent-color)
 }
 
-.site_footer_main_box {
+.site-footer__main-box {
   margin: 40px auto;
   padding: 0 100px;
   color: #fff
 }
 
 .site-footer-logolink,
-.site_foote_info_link {
+.site-footer__info-link {
   display: block;
   text-decoration: none;
   color: #fff
 }
 
-.site_footer_logo_header {
+.site-footer_logo_header {
   font-weight: 700;
   font-size: 24px;
   line-height: 28.44px;
   margin-bottom: 15px
 }
 
-.site_footer_warning {
+.site-footer_warning {
   width: 229px;
   height: 95px;
   font-weight: 400;
@@ -771,38 +771,38 @@ only screen and (min-resolution:2dppx) {
   margin: 0 203px 71px 0
 }
 
-.site_footer_info a {
+.site-footer_info a {
   color: #fff;
   text-decoration: none
 }
 
-.site_footer_info:not(:last-child) {
+.site-footer_info:not(:last-child) {
   margin-right: 100px
 }
 
-.site_footer_info_list {
+.site-footer_info_list {
   list-style: none;
   margin: 0;
   padding: 0
 }
 
-.site_footer_info_item {
+.site-footer_info_item {
   font-weight: 500;
   font-size: 16px;
   line-height: 18.96px;
   margin: 0 0 20px
 }
 
-.site_footer_info_link:hover {
+.site-footer_info_link:hover {
   color: #f78b3b
 }
 
-.site_footer_info_link:active {
+.site-footer_info_link:active {
   color: #f78b3b;
   opacity: .7
 }
 
-.site_footer_divider {
+.site-footer_divider {
   color: #cecece
 }
 
@@ -820,7 +820,7 @@ only screen and (min-resolution:2dppx) {
   border: 1px solid #fff
 }
 
-.site_footer_socials_box {
+.site-footer_socials_box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -829,7 +829,7 @@ only screen and (min-resolution:2dppx) {
   justify-content: space-between
 }
 
-.site_footer_socials {
+.site-footer_socials {
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;

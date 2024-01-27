@@ -312,7 +312,7 @@ body{
 
 
 /* GLOBAL-NEWS */
-.global_news_heading {
+.global-news-heading {
   font-size: 24px;
   line-height: normal;
   font-weight: 500;
@@ -496,38 +496,38 @@ body{
 
 
 /* FOOTER */
-.site_footer{
+.site-footer{
   height: auto;
   background-color:  var(--accent-color);
 }
-.site_footer_main_box {
+.site-footer__main-box {
   margin: 40px auto;
   padding: 0px 100px;
   color: #fff;
 }
-.site_footer_box {
+.site-footer__box {
   display: flex;
 }
-.site-footer-logolink {
+.site-footer__logolink {
   display: block;
   text-decoration: none;
   color: #fff;
 }
-.site-footer-logolink:hover{
+.site-footer__logolink:hover{
   opacity: 0.8;
 }
-.site-footer-logolink:active{
+.site-footer__logolink:active{
   opacity: 0.6;
 }
 
-.site_footer_logo_header {
+.site-footer__logo-header {
   font-family: "Rubik", "Arial", sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 28.44px;
   margin-bottom: 15px;
 }
-.site_footer_warning {
+.site-footer__warning {
   width: 229px;
   height: 95px;
   font-family: "Rubik", "Arial", sans-serif;
@@ -536,19 +536,19 @@ body{
   line-height: 19px;
   margin: 0px 203px 71px 0px;
 }
-.site_footer_info a{
+.site-footer__info a{
   color: #fff;
   text-decoration: none;
 }
-.site_footer_info:not(:last-child) {
+.site-footer__info:not(:last-child) {
   margin-right: 100px;
 }
-.site_footer_info_list {
+.site-footer__info-list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-.site_footer_info_item {
+.site-footer__info-item {
   font-family: "Rubik", "Arial", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -556,20 +556,20 @@ body{
   margin: 0px 0px 20px 0px;
 }
 
-.site_foote_info_link{
+.site-footer__info-link{
   display: block;
   text-decoration: none;
   color: #fff;
 }
-.site_footer_info_link:hover{
+.site-footer__info-link:hover{
   color: #f78b3b;
 }
-.site_footer_info_link:active{
+.site-footer__info-link:active{
   color: #f78b3b;
   opacity: 0.7;
 }
 
-.site_footer_divider{
+.site-footer__divider{
   color: #CECECE;
 }
 .socials_header {
@@ -582,21 +582,21 @@ body{
   font-size: 18px;
   line-height: 23px;
 }
-.socials {
+.social {
   display: flex;
 }
-.socials_img:hover{
+.social-img:hover{
   border: 1px solid #fff;
 }
-.site_footer_socials_box{
+.site-footer__socials-box{
   display: flex;
   justify-content: space-between;
 }
-.site_footer_socials {
+.site-footer__socials {
   list-style: none;
   display: flex;
 }
-.socials:not(:last-child) {
+.social:not(:last-child) {
   margin-right: 25px;
 }
 
@@ -896,3 +896,5 @@ only screen and (min-resolution: 2dppx) {
     background-image: url("../img/bg_img_not@2x.jpg");
   }
 }
+
+@media only screen and (max-width: )
