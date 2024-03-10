@@ -1,7 +1,7 @@
 /*GLOBAL-STYLES */
 :root {
   --accent-color: #7297EF;
-  --font-family: ;
+  --font-family: "Rubik", "Arial", sans-serif;
 }
 
 html {
@@ -34,7 +34,7 @@ body{
   margin: 0;
   font-size: 16px;
   line-height: 22px;
-  font-family: "Rubik", "Arial", sans-serif;
+  font-family: var(--font-family);
   color: #4a4b4c;
   background-color: #fff;
 }
@@ -525,7 +525,7 @@ body{
 }
 
 .site-footer__logo-header {
-  font-family: "Rubik", "Arial", sans-serif;
+  font-family: var(--font-family);
   font-weight: 700;
   font-size: 24px;
   line-height: 28.44px;
@@ -534,7 +534,7 @@ body{
 .site-footer__warning {
   width: 229px;
   height: 95px;
-  font-family: "Rubik", "Arial", sans-serif;
+  font-family: var(--font-family);
   font-weight: 400;
   font-size: 12px;
   line-height: 19px;
@@ -553,7 +553,7 @@ body{
   padding: 0;
 }
 .site-footer__info-item {
-  font-family: "Rubik", "Arial", sans-serif;
+  font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 18.96px;
@@ -581,7 +581,7 @@ body{
   width: 161px;
   height: 46px;
   color: #fff;
-  font-family: "Rubik", "Arial", sans-serif;
+  font-family: var(--font-family);
   font-weight: 500;
   font-size: 18px;
   line-height: 23px;
@@ -614,7 +614,7 @@ body{
   justify-content: space-between;
   width: 797px;
   margin-top: 10px;
-  font-family: "Rubik", "Arial", sans-serif;
+  font-family: var(--font-family);
 }
 .article-text-box{
   width: 797px
@@ -664,7 +664,7 @@ body{
 .mini-content-heading {
   color: #000;
   font-size: 24px;
-  font-family: "Rubik";
+  font-family: var(--font-family);
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -684,7 +684,7 @@ body{
   margin: 0;
   color: #000;
   font-size: 20px;
-  font-family: "Rubik";
+  font-family: var(--font-family);
   font-style: normal;
   font-weight: 500;
   line-height: 26px;
@@ -711,7 +711,7 @@ body{
   display: block;
   color: #000;
   font-size: 24px;
-  font-family: "Rubik";
+  font-family: var(--font-family);
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -789,7 +789,7 @@ body{
   margin-bottom: 7px;
   color: #000;
   font-size: 20px;
-  font-family: "Rubik";
+  font-family: var(--font-family);
   font-style: normal;
   font-weight: 500;
   line-height: normal;
