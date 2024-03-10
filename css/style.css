@@ -219,6 +219,9 @@ body{
   display: flex;
   margin-bottom: 45px;
 }
+.site-header-banner-img {
+  border-radius: 8px;
+}
 
 /* MAIN-CONTENT */
 .main-content{
